@@ -28,5 +28,8 @@ $blog-app-theme: mat-light-theme($blog-app-primary, $blog-app-accent);
 // that you are using.
 @include angular-material-theme($blog-app-theme);
 
-//Import Material Icons
-@import '~material-design-icons/iconfont/material-icons.css'
+// Import Material Icons
+@import '~material-design-icons/iconfont/material-icons.css';
+
+// Import common styles
+@import 'common.scss';
