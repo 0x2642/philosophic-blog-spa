@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { UtilService } from './util.service';
+
 import {
   MdInputModule,
   MdMenuModule,
@@ -44,6 +46,7 @@ import {
     MdDialogModule,
     MdSnackBarModule
   ],
-  declarations: []
+  declarations: [],
+  providers: [UtilService]
 })
 export class SharedModule { }

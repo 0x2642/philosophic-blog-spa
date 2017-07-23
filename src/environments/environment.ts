@@ -5,5 +5,6 @@
 
 export const environment = {
   production: false,
+  blogTitle: '0x2642 Blog',
   apiEndpoint: 'http://somewhere/api'
 };
