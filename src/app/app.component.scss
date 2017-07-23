@@ -1,0 +1,9 @@
+.page-loader {
+  position: absolute;
+  top: 0px;
+  display: none;
+  &.show {
+    display: block;
+  }
+}
+

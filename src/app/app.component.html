@@ -23,4 +23,11 @@
   </li>
 </ul>
 -->
+<md-progress-bar class="page-loader" mode="indeterminate" [class.show]="onPageLoading"></md-progress-bar>
+<nav>
+  <a routerLink="/home" routerLinkActive="active">Home</a>
+  <a routerLink="/list" routerLinkActive="active">List</a>
+  <a routerLink="/article" routerLinkActive="active">Article</a>
+  <a routerLink="/about" routerLinkActive="active">About</a>
+</nav>
 <router-outlet></router-outlet>
