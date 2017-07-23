@@ -1,11 +1,3 @@
-// import global themes
-@import '~@angular/material/theming';
-@import './blog-app-theme';
-
-// import global variables
 @import './constants';
-
-// import global mixins
 @import './mixins';
-
-@import './common'
+@import './common';

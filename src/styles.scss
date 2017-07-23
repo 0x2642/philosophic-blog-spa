@@ -1,5 +1,9 @@
-// Import Material Icons
+// import material themes
+@import './styles/blog-app-theme';
 @import '~material-design-icons/iconfont/material-icons.css';
+
+// Import thaird-party styles
+@import '~normalize.css/normalize.css';
 
 // Import main styles
 @import './styles/main.scss';
