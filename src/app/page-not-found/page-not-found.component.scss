@@ -1,4 +1,6 @@
-.page-not-found {
+@import '~styles/main.scss';
+
+:host {
   background-color: #ECECEC;
   width: 100%;
   display: flex;
