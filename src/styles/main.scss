@@ -1,5 +1,30 @@
-//font-face define below
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto'), url(~assets/fonts/Roboto-Regular.ttf) format('truetype');
+}
 
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto'), url(~assets/fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto'), url(~assets/fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Monad';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monad'), url(~assets/fonts/Monad.otf) format('opentype');
+}
 
 @import './constants';
 @import './mixins';
