@@ -1,6 +1,7 @@
 @import '~styles/main.scss';
 
 :host {
+  @extend .flex-view;
   background-color: #ECECEC;
   width: 100%;
   display: flex;
