@@ -1,5 +1,5 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { Router, NavigationStart } from "@angular/router";
+import { Router, NavigationStart, NavigationEnd } from "@angular/router";
 
 import { UtilService } from "app/shared/util.service";
 
@@ -23,6 +23,10 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.routerService.events.find(e => e instanceof NavigationStart).subscribe(e => {
       this.onPageLoading = true;
+      console.log(e.toString());
+    });
+    this.routerService.events.find(e => e instanceof NavigationEnd).subscribe(e => {
+      this.onPageLoading = false;
       console.log(e.toString());
     });
   }

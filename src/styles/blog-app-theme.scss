@@ -13,8 +13,8 @@
 // $candy-app-primary: mat-palette($mat-indigo);
 // $candy-app-accent:  mat-palette($mat-pink, A200, A100, A400);
 // $candy-app-theme:   mat-light-theme($candy-app-primary, $candy-app-accent);
-$blog-app-primary: mat-palette($mat-deep-purple);
-$blog-app-accent:  mat-palette($mat-blue-grey);
+$blog-app-primary: mat-palette($mat-grey);
+$blog-app-accent:  mat-palette($mat-light-blue, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 // $candy-app-warn:    mat-palette($mat-red);
