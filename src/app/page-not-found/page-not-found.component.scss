@@ -1,16 +1,23 @@
 @import '~styles/main.scss';
-
 :host {
   @extend .flex-view;
-  background-color: #ECECEC;
-  width: 100%;
+  background-color: $white-gray;
   display: flex;
   justify-content: center;
   align-items: center;
-  .info-card {
-    @include card(180px, 400px);
-    text-align: center;
-    padding: 20px;
+  flex-direction: column;
+}
+
+.page-info {
+  text-align: right;
+  h1 {
+    margin: 0
   }
+}
+
+.back-button {
+  position: absolute;
+  top: 2em;
+  left: 2em;
 }
 
