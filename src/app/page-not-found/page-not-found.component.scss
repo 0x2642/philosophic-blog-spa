@@ -1,8 +1,8 @@
 @import '~styles/main.scss';
 :host {
   @extend .flex-view;
+  @extend .flex-view-container;
   background-color: $white-gray;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
